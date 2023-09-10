@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const userName = "theLazyCoder"
     const imgSrc="./IMG_3079.jpeg"
 
+    console.log(currentDate.getUTCMinutes())
+
     // Get current UTC time in milliseconds
     const currentUTCTime = Date.now();
 
